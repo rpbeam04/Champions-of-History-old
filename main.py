@@ -40,6 +40,7 @@ with open("FirstRound.txt","w") as f:
     c+=1
 
 def win_probability():
+  return None
 
 def matchup(team1,team2):
   w1 = 1/(1+math.e**(-0.18*(get_rating(team1)-75)))
